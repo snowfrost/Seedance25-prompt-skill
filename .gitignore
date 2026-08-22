@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+# Video/media working files (large)
+**/*.mp4
+**/*.m4a
+**/*.avi
+**/*.mkv
+**/video/
+**/audio.*
+**/probe/
+**/subs/
+**/slides/
+**/chunks/
+**/raw/
+**/video2/
