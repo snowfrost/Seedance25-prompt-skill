@@ -24,3 +24,9 @@ venv/
 **/chunks/
 **/raw/
 **/video2/
+
+# WorkBuddy 内部迁移标记（勿提交）
+*_migration.json
+
+# git 损坏备份目录（config 内可能含 PAT，严禁提交）
+.git_broken_*/
