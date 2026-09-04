@@ -30,3 +30,6 @@ venv/
 
 # git 损坏备份目录（config 内可能含 PAT，严禁提交）
 .git_broken_*/
+
+# Contents API 推送辅助脚本（勿随 skill 提交）
+push-seedance-api.py
