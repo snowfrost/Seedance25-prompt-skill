@@ -79,6 +79,11 @@ seedance25-prompt/
 
 # 更新日志
 
+## v20261006d · 2026-10-06 · 塑造光手册补吸收（16 号 31.3 灯光节扩容）
+- 手册（cine-light-field-guide ChatGPT Sites）被 Cloudflare 四路拦截后由王老师手动另存 mhtml 提供；mhtml 解析坑：part 无 charset 头须 get_payload(decode=True) 后手动 utf-8 解码
+- 16 号 31.3 ②节五块扩容：**光比档位表**（0-5 档 1:1→32:1+暗面光量+适用场景）/**空气透视分层调节表**（近中远景四列数值）/**黑位三档**（压黑·标准·抬升+「低调照明不等于欠曝」铁句）/**黑柔白柔系统**（用途对照+浓度 1/8-1 四档）/**Low-Key 配方 001**（四步+现场数值+英文提示词原版）
+- 批判丢弃：REC.709 码值/Log 中灰位置/位深码率表（纯后期技术域不搬）；尾部 Viko 插件 UI 与用户任务数据非手册本体不吸收
+
 ## v20261006c · 2026-10-06 · MOKE AIGC 全站吸收（流程规范 15 章 + dw70 导演工作流 + 180 skill 摸底）
 - 王老师指令：学习 www.mokeaigc.com，重点「整个AI影视的制作流程」；tutorial 登录墙由王老师亲登（persistent profile 存登录态，密码零接触）
 - 抓取工程：SkillHub 180 个 skill 全量 API 抓取（180/180 零失败，正文共 112.5 万字符留档 skill_inbox/moke_skills/）；流程规范 15 章完整版 20617 字符（登录后浏览器渲染）；塑造光手册被 Cloudflare 拦截放弃（与灯光章重叠）
