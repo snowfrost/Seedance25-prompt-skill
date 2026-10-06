@@ -78,6 +78,12 @@ seedance25-prompt/
 
 # 更新日志
 
+## v20261006b · 2026-10-06 · melies 本地双语网站建成（424 术语中英对照 + 站内视频播放）
+- 新建 `~/.workbuddy/skills/seedance25-prompt-video-library/site/`（index.html 单页应用 + data.js 849KB，本地资产不进 git）：界面全中文、13 分类导航、中英文搜索、术语卡片网格、详情页视频播放（989 条相对路径直连）
+- 翻译分层落地：424 术语标题全译中英对照 + 叙事功能每条一句中文提炼（trans_part1-4.json 留档 skill_inbox/melies/）；how/when/对比/prompt/错误五段保留英文原文（Prompt 模板英文原版更实用，配一键复制）
+- 15 号文件 30.1 新增「本地双语站点」首选入口条目；Playwright 全流程验证通过（424 卡片渲染/搜索/详情/视频 200/零报错）
+- 站点打开方式：浏览器直接打开 site/index.html 即可，无需启动服务
+
 ## v20261006 · 2026-10-06 · melies.co 技法库批判吸收（424 术语全站抓取 + 989 视频本地归档）
 - 来源：melies.co/cinematic-techniques，13 分类 424 个电影技法术语，每术语七段卡（叙事功能/原理/何时用/相似对比/电影案例/Prompt/常见错误）
 - 新增 `references/15-Melies技法与视频参考库.md`（§三十）：30.1 资源用法 / 30.2 术语七段卡框架 / 30.3 **错误表亲批判法**（wrong cousin + the tell + the fix，本次最高价值吸收）/ 30.4 Prompt 模板四要素（主体占位先行/设备写实/禁止项内嵌/显式时长）/ 30.5 424 术语全量索引（英中对照+叙事功能+本地视频路径）
