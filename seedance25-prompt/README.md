@@ -79,6 +79,23 @@ seedance25-prompt/
 
 # 更新日志
 
+## v20261006f · 2026-10-06 · MOKE 15 个高价值 skill 蒸馏落地 + 3D 参数捞回（王老师拍板「3D 内容保留」）
+- **蒸馏对象**（15 skill，三组并行 subagent 提取+三重验证+归属分级）：A 表演连续性（emotion-prompt/acting-system/character-continuity-bible/cross-shot-consistency-audit/shot-information-progression）、B 动作分镜（fight-director/action-choreography/high-tension/storyboard-director/master-shot）、C 风格VFX（visual-style/visual-reference-vocabulary/roger-deakins/seedance-vfx/vfx-effect-construction-engine）；提取全录留档 `skill_inbox/moke_distill/extract_A/B/C`（17 万字符，含落地建议总表+rejected 清单+跨组记账），阶段 1.5 轻确认王老师拍板「按清单全部落地」
+- **落地成果**（66 真增量单元 → 12 个 references 文件，5 个文件所有权互斥的落地代理）：
+  - 10 号新开 §21.28-21.38 十一节（**持续交战闭环**/**受击三通道确认门**/地理×覆盖拓扑/高密度环境门/奇幻能力四段合同/参考栈/战斗身份锁/打戏分镜线系统/非对称尺度/魔法规矩语法/图形元素五属性）+ 既有节补 20 余条
+  - 12 号新开 §23.6 **五变量风格锁序** / §23.7 **纹理归属+脏输出门** / §23.8 **迪金斯十大技法特征库**（宿主 Deakins 零覆盖）+ 媒介锁三档/筛选纪律
+  - 00 §五 新增**序列 QC 判定层**（锚点先行+八维矩阵+L1-L4 修复路由，补宿主序列审计空缺）；09 新开 §20.29 呼吸链/§20.30 非人实体锁 + 15 块肌肉速查表/Proxemics/地位清单；02 新开 §19.11 张力七字段模板；14 新开 §29.9 主镜反推法/§29.10 信息梯；16 §31.5 补 11 条（特效预算/主读公式等）；01/03/04/08/13 各补条目
+- **3D 参数捞回**：16 号新增 §31.7 三维管线技术参数备查（建模面数表/拓扑/文件规范、PBR 贴图六通道+UDIM、骨骼系统表+控制器五原则、毛发三表、布局/动画/特效速查）——推翻 31.1 原「无效不搬」判定（王老师拍板保留为备查层）
+- **rejected 27 项**：三源「导演/作品名进正文」与 00 A9 红线正面冲突判宿主红线优先不迁移；MJ/SD 平台参数、「必须英文」等口径冲突丢弃；R6/R7/R8（style-taxonomy/导演锚点 atlas/vfx-atom 566 词库）references 未随附标中可捞回；两个红线级候选（循环堆叠判据/纹理归属）只入 00 §三 建议清单观察不升红线
+- **撞号修复**：落地代理曾给 13 号新章误编「二十八」（撞 02 号镜内生态），手工改号 **三十二** 并登记占用表（下一可用号三十三）
+- SKILL.md：占用表登记三十二→13、路由表 8 行补触发词（序列 QC/持续交战/风格锁序/迪金斯/主镜反推/3D 参数等）、整合来源补记；审计留档 `skill_inbox/moke_skills_audit.md` 追加本批验证记录
+- 工程教训：B 组首跑内联返回+主上下文叠加触发 262144 上限 400 错误——重派时强制「写盘+只回简报」杜绝复现
+
+## v20261006e · 2026-10-06 · 蒸馏流程合规补课（王老师指出「每次蒸馏吸收要遵循两个 skill」）
+- 违规复盘：MOKE 全站吸收未走 longform-skill-distiller 阶段 1.5 轻确认与审计留痕，补建 `skill_inbox/moke_skills_audit.md`（verified 13 单元 V1/V2/V3+归属 + rejected 13 项）
+- MEMORY.md 铁律升级：任何学习/吸收/蒸馏任务第一步必须 Skill 调 longform-skill-distiller（RIA-TV++ 六阶段），涉及博主内容叠 creator-distiller（源—证—用证据模型，归属三级）
+- 本条为回溯补录（v20261006f 会话发现漏记，按回溯补漏规则一并录入）
+
 ## v20261006d · 2026-10-06 · 塑造光手册补吸收（16 号 31.3 灯光节扩容）
 - 手册（cine-light-field-guide ChatGPT Sites）被 Cloudflare 四路拦截后由王老师手动另存 mhtml 提供；mhtml 解析坑：part 无 charset 头须 get_payload(decode=True) 后手动 utf-8 解码
 - 16 号 31.3 ②节五块扩容：**光比档位表**（0-5 档 1:1→32:1+暗面光量+适用场景）/**空气透视分层调节表**（近中远景四列数值）/**黑位三档**（压黑·标准·抬升+「低调照明不等于欠曝」铁句）/**黑柔白柔系统**（用途对照+浓度 1/8-1 四档）/**Low-Key 配方 001**（四步+现场数值+英文提示词原版）
