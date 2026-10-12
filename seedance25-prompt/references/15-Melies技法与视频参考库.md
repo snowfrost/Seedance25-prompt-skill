@@ -2,7 +2,6 @@
 
 > 来源：melies.co/cinematic-techniques（2026-10-06 全站抓取蒸馏）。424 个电影技法术语 × 13 分类，每个术语带案例视频与 AI 生成提示词。
 > 视频库（989 条 mp4，按「分类/术语」归档）：`C:\Users\snowf\.workbuddy\skills\seedance25-prompt-video-library\`（本地资产不进 git）。
-> 结构化数据全量 JSON：`C:\Users\snowf\WorkBuddy\2026-08-22-10-11-04\skill_inbox\melies\terms_data.json`（含每术语的功能/原理/对比/prompt/常见错误全文）。
 
 ## 三十、Melies 技法库（★melies.co 批判吸收 · 2026-10-06）
 
