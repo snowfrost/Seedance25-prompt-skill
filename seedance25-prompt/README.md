@@ -79,6 +79,12 @@ seedance25-prompt/
 
 # 更新日志
 
+## v20261015 · 2026-10-15 · 与 ling-skill 解耦：自包含声明落地（王老师要求两 skill 均可独立使用）
+- **背景**：ling-skill（棂式打斗导演）与本 skill 原为「资产层/导演层」耦合设计，双方文档互相硬路由；王老师要求解耦，两个 skill 均可单独使用。
+- **改动 A（本 skill 侧）**：SKILL.md 整合来源行下新增「自包含声明」——本 skill 可独立交付，来源中其他 skill 名称仅为蒸馏出处署名；打斗方法已内置 references/10（§21 全章），无需外挂。功能面零改动（references/10 本就自完整）。
+- **改动 B（对侧 ling-skill）**：去除对本 skill 的硬路由——SKILL.md 定位/不用表/§七/§九 全部改为自包含表述，references/09 由「与 seedance25 的分工合并」改写为「角色武器三视图与参考图绑定」，references/08/01 跨文件引用与测试文件同步清理。
+- **保留**：references/10 内《seedance-fight-director》来源署名为历史出处，不构成运行时依赖。
+
 ## v20261012b · 2026-10-12 · Higgsfield 生态三包蒸馏（元层裁定纪律 / 五元素场景审计 / 走位资产层 / CINEDANCE+ACTING+Lira 净增）
 
 ### 一、来源与范围
