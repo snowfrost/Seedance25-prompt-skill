@@ -1,7 +1,7 @@
 # 15 Melies 技法与视频参考库
 
 > 来源：melies.co/cinematic-techniques（2026-10-06 全站抓取蒸馏）。424 个电影技法术语 × 13 分类，每个术语带案例视频与 AI 生成提示词。
-> 视频库（989 条 mp4，按「分类/术语」归档）：`C:\Users\snowf\.workbuddy\skills\seedance25-prompt-video-library\`（本地资产不进 git）。
+> 视频库（989 条 mp4，按「分类/术语」归档）：`~/.workbuddy/skills/seedance25-prompt-video-library/`（本地资产不进 git）。
 
 ## 三十、Melies 技法库（★melies.co 批判吸收 · 2026-10-06）
 
@@ -54,7 +54,7 @@ Melies 的 AI 生成提示词模板结构稳定，可直接借用：
 
 ### 30.5 术语全量索引（424 项 · 视频库路径对照）
 
-> 视频库根目录：`C:\Users\snowf\.workbuddy\skills\seedance25-prompt-video-library\`（下表相对路径基于此目录）
+> 视频库根目录：`~/.workbuddy/skills/seedance25-prompt-video-library/`（下表相对路径基于此目录）
 > 空白中文栏 = 术语较新或无标准中文译名，保留英文；点击英文术语可跳转 melies.co 原页。
 
 #### camera-movement · 镜头运动（86 项）
