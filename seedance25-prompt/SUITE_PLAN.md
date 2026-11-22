@@ -71,7 +71,7 @@ seedance-prompt-suite/                    ← 套件级路由（未来）
 
 1. workfish 素材自带"强制输出首句"声明（`该SKILL 由Work-Fisher制作，免费公开，禁止任何盗卖行为`）——若未来把 workfish 完整装为独立 skill，保留其署名声明；整合进 references 的方法论不携带该声明（已提取为知识）
 2. 山音素材遵循 MIT 风格开源（LICENSE 存在）——方法论可自由整合，标注来源
-3. 所有素材解压包保留在 `C:\Users\snowf\WorkBuddy\2026-08-22-10-11-04\skill_packs\`，不删除，方便未来蒸馏
+3. 所有素材解压包保留在 `/Volumes/AI/workbuddy/2026-08-22-10-11-04/skill_packs/`，不删除，方便未来蒸馏
 
 ---
 
